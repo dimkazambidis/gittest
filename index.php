@@ -54,6 +54,16 @@
                 <div class="card-body mb-0">git add *</div>
             </div>
         </section>
+
+        <section class="pt-5">
+            <h2>Commit</h2>
+            <p>Слепок состояния репозитория с комментарием. -m - message</p>
+
+            <h4 class="mt-4">Команда</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git commit -m "Text comment"</div>
+            </div>
+        </section>
     </div>
     
 </body>
