@@ -126,6 +126,16 @@
         </section>
 
         <section class="pt-5">
+            <h2>Merge</h2>
+            <p>Слияние веток. Из нужной ветк вводим ту, из которой хотим подтянуть изменения.</p>
+
+            <h4 class="mt-4">Команда</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git merge dimkazambidis</div>
+            </div>
+        </section>
+
+        <section class="pt-5">
             <h2>Gitignore</h2>
             <p>Файл <strong>.gitignore</strong> в корне проекта, со списком файлов и директорий, которые не должны попасть в git.</p>
 
