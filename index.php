@@ -67,7 +67,7 @@
 
         <section class="pt-5">
             <h2>Remote</h2>
-            <p>Добавить удаленный репозиторий (связать с удаленным репозиторием).<br> Перед push и pull</p>
+            <p>Добавить удаленный репозиторий (связать с удаленным репозиторием).<br> Перед push и pull впервые</p>
 
             <h4 class="mt-4">Команда</h4>
             <div class="card bg-light mt-4">
@@ -92,6 +92,49 @@
             <h4 class="mt-4">Команда</h4>
             <div class="card bg-light mt-4">
                 <div class="card-body mb-0">git push -u origin master</div>
+            </div>
+        </section>
+
+        <section class="pt-5">
+            <h2>Branch</h2>
+            <p>Показывает текущую ветку и создает или удаляет новые</p>
+
+            <h4 class="mt-4">Команда</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git branch</div>
+            </div>
+
+            <h4 class="mt-4">Команда создает ветку dimkazambidis</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git branch dimkazambidis</div>
+            </div>
+
+            <h4 class="mt-4">Команда удаляет ветку dimkazambidis</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git branch -D dimkazambidis</div>
+            </div>
+        </section>
+
+        <section class="pt-5">
+            <h2>Checkout</h2>
+            <p>Переключает на нужную ветику.</p>
+
+            <h4 class="mt-4">Команда</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git checkout dimkazambidis</div>
+            </div>
+        </section>
+
+        <section class="pt-5">
+            <h2>Gitignore</h2>
+            <p>Файл <strong>.gitignore</strong> в корне проекта, со списком файлов и директорий, которые не должны попасть в git.</p>
+
+            <h4 class="mt-4">Пример содержимого:</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">
+                    errors.txt<br>
+                    /logs
+                </div>
             </div>
         </section>
     </div>
