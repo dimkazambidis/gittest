@@ -64,6 +64,26 @@
                 <div class="card-body mb-0">git commit -m "Text comment"</div>
             </div>
         </section>
+
+        <section class="pt-5">
+            <h2>Remote</h2>
+            <p>Добавить удаленный репозиторий</p>
+
+            <h4 class="mt-4">Команда</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git remote add origin https://github.com/dimkazambidis/gittest.git</div>
+            </div>
+        </section>
+
+        <section class="pt-5">
+            <h2>Push</h2>
+            <p>Залить на сервер в указанную ветку</p>
+
+            <h4 class="mt-4">Команда</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git push -u origin master</div>
+            </div>
+        </section>
     </div>
     
 </body>
