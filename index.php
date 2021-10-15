@@ -67,7 +67,7 @@
 
         <section class="pt-5">
             <h2>Remote</h2>
-            <p>Добавить удаленный репозиторий</p>
+            <p>Добавить удаленный репозиторий (связать с удаленным репозиторием).<br> Перед push и pull</p>
 
             <h4 class="mt-4">Команда</h4>
             <div class="card bg-light mt-4">
@@ -77,7 +77,17 @@
 
         <section class="pt-5">
             <h2>Push</h2>
-            <p>Залить на сервер в указанную ветку</p>
+            <p>Залить на сервер в указанную ветку. Origin - имя сервера. Master - имя ветки.</p>
+
+            <h4 class="mt-4">Команда</h4>
+            <div class="card bg-light mt-4">
+                <div class="card-body mb-0">git push -u origin master</div>
+            </div>
+        </section>
+
+        <section class="pt-5">
+            <h2>Pull</h2>
+            <p>Выкачать с сервера из указанной ветки. Origin - имя сервера. Master - имя ветки.</p>
 
             <h4 class="mt-4">Команда</h4>
             <div class="card bg-light mt-4">
